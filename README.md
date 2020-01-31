@@ -11,7 +11,7 @@
 - 지원 메서드는 POST/GET/PUT/DELET 이다.
 
 ## 3. @RequestParam
-- 해당 어노테이션은 QueryString과 MIMY-Type:x-www.form-urlencoded 데이터를 받아준다.
+- 해당 어노테이션은 QueryString과 MIME-Type:x-www.form-urlencoded 데이터를 받아준다.
 - request.getParameter() 함수와 동일한 역할을 한다.
 
 ## 4. @RequestBody
@@ -33,3 +33,22 @@
 - 해당 라이브러리는 요청시 json데이터를 java Object로 변환해주는 필터이다.
 - 해당 라이브러리는 응답시 java Object를 json 데이터로 변환해주는 필터이다.
 - Gson과 비슷한 역할이지만, 내가 보낼때  바꿔서 보내고 받을 때도 바꿔서 받을 필요가 없다!
+
+## 8. Git 사용법
+- git init
+
+- git add .
+
+- git config --global "ssar@nate.com"
+- git config --global "ssar"
+
+- git commit -m "스프링 레거시 테스트 완료"
+
+- git remote add origin 주소
+
+- git push origin master
+
+## 9. Git 재배포
+- git add .
+- git commit -m "스프링 레거시 테스트 완료 2"
+- git push origin master
